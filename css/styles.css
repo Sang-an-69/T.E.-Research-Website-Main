@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(205, 205, 205);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.bottom_navbar {
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.bottom_navbar a {
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 3px;
+    margin-right: 5px;
+}
+
+.bottom_navbar a:hover{
+    background-color: grey;
+    color: white;
+}
+
+.bottom_navbar a.active {
+    background-color: red;
+}
