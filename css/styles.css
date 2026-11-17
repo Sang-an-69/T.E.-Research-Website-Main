@@ -20,11 +20,35 @@ ul, ol {
     margin-right: 5px;
 }
 
-.bottom_navbar a:hover{
+.bottom_navbar a:hover {
     background-color: grey;
     color: white;
 }
 
-.bottom_navbar a.active {
+.bottom_navbar a:active {
+    color: rgb(255, 0, 157);
+}
+
+.top_navbar {
+    overflow: hidden;
+    background-color: gold;
+    padding: 5px;
+}
+
+.top_navbar a {
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 3px;
+    margin-right: 5px;
+}
+
+.top_navbar a:hover {
+    background-color: grey;
+    color: white;
+}
+
+
+.top_navbar a.active {
     background-color: red;
 }
